@@ -28,4 +28,4 @@ jobs:
         run: go run test.go
 
       - name: Run kustomize build
-        run: kustomize build ./k8s
+        run: sudo kustomize build ./k8s
