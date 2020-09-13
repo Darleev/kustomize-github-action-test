@@ -23,9 +23,8 @@ jobs:
           whereis git
           echo "Git version"
           git --version
-
       - name: Run Go script test
         run: go run test.go
 
       - name: Run kustomize build
-        run: sudo kustomize build ./k8s
+        run: kustomize build ./k8s
