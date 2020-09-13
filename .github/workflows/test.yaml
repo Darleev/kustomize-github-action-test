@@ -19,7 +19,7 @@ jobs:
       - name: Find git
         run: |
           echo "Path env var: $PATH"
-          echo "whereis command result:"
+          echo "wherei command result:"
           whereis git
           echo "Git version"
           git --version
